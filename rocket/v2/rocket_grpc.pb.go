@@ -2,9 +2,9 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.9
-// source: rocket/v1/rocket.proto
+// source: rocket/v2/rocket.proto
 
-package v1
+package v2
 
 import (
 	context "context"
@@ -173,5 +173,5 @@ var RocketService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "rocket/v1/rocket.proto",
+	Metadata: "rocket/v2/rocket.proto",
 }
